@@ -27,7 +27,7 @@ const products = [
     title: "ROG Gaming Mouse",
     price: 2499,
     isAvailable: false,
-    image: "https://s.yimg.com/ny/api/res/1.2/B7eN8sghJVgOwaiG0Kh0sA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MA--/https://media.zenfs.com/en/pc_gamer_708/34aed0c8b99fc4e0c002ddc2039ac5c8."
+    image: "https://m.media-amazon.com/images/I/61YQeAUIboL._AC_SL1500_.jpg"
   }
 ];
 

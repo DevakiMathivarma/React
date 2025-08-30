@@ -22,7 +22,7 @@ const MovieList = () => {
       title: "The Dark Knight",
       rating: 5,
       isTrending: true,
-      poster: "https://m.media-amazon.com/images/S/pv-target-images/e9a43e647b2ca70e75a3c0af046c4dfdcd712380889779cbdc2c57d94ab63902.jpgd",
+      poster: "https://m.media-amazon.com/images/S/pv-target-images/e9a43e647b2ca70e75a3c0af046c4dfdcd712380889779cbdc2c57d94ab63902.jpg",
     },
     {
       id: 4,
