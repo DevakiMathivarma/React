@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  color: #333;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.weather-dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.weather-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease-in-out;
+}
+
+.weather-card:hover {
+  transform: translateY(-6px);
+}
+
+.weather-card h2 {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+  color: #444;
+}
+
+.temp {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 8px 0;
+  color: #2193b0;
+}
+
+.condition {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 6px 0;
+}
+
+.status {
+  font-size: 0.9rem;
+  margin-top: 8px;
+  color: #666;
+}
+
+.status span {
+  font-weight: bold;
+  color: #ff8a00;
+}
